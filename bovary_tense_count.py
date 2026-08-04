@@ -5,7 +5,7 @@ by Gustave Flaubert (French), comparing dialogue with narration.
 Input: plain text file of the novel
 Output: a table in the Terminal
 
-Usage: bovary_tense_analysis.py --txt bovary.txt
+Usage: bovary_tense_count.py --txt bovary.txt
 '''
 
 import argparse

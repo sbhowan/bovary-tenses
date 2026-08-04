@@ -17,11 +17,11 @@ A UTF-8 plain-text file of _Madame Bovary_ in French from Project Gutenberg. The
 Dialogue is identified by two en dashes (e.g. _--Bonjour, monsieur_), while narration is counted as everything else.
 
 ## Usage
-Run the script from the Terminal using ```python bovary_tense_analysis.py --txt bovary.txt```.
+Run the script from the Terminal using ```python bovary_tense_count.py --txt bovary.txt```.
 
 ```fr_core_news_md``` is the French-language model used to identify verbs (```{VERB} and {AUX}```). To specify a different spaCy French model like ```fr_core_news_sm```, you can also optionally specify:
 
-```python bovary_tense_counts.py --txt bovary.txt --model fr_core_news_sm```
+```python bovary_tense_count.py --txt bovary.txt --model fr_core_news_sm```
 
 ## Tense labels
 Possible spaCy tense labels may include:
